@@ -16,6 +16,7 @@ cam = cv2.VideoCapture(0)
 
 while run:
     ret, frame = cam.read()
+    print(len(frame))
     data = img_live(frame)
     data = np.array(data)
     y_pred = svm.predict(data.reshape(-1,63))
