@@ -3,8 +3,9 @@ import cv2 as cv
 from pathlib import Path
 
 def create_data():
-    letter = 'X'
-    Path('dataset/'+letter).mkdir(parents=True, exist_ok=True)
+    print('Which sign would you like to add?')
+    sign = input()
+    Path('dataset/'+sign).mkdir(parents=True, exist_ok=True)
     cap = cv.VideoCapture(0)
     i = 0    
     while True:
@@ -12,7 +13,7 @@ def create_data():
         ret, frame = cap.read()
         i+= 1
         if i % 5==0:
-            cv.imwrite(f'dataset/{letter}/{str(i)}.png',frame)
+            cv.imwrite(f'dataset/{sign}/{str(i)}.png',frame)
         cv.imshow('frame', frame)
         if cv.waitKey(1) == ord('q') or i > 500:
             break
