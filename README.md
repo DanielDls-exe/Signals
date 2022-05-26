@@ -10,7 +10,13 @@ Signals is a sign language alphabet recognition project using Machine Learning. 
 ```bash
   git clone https://github.com/DanielDls-exe/Signals-.git
 ```
-2. If we want to create our own sign dataset, we must execute the script "create_dataset.py". Otherwise we can skip to step number 5 "Run Streamlit".
+2. Let's install the requirements
+
+```bash
+  pip install -r requirements.txt
+```
+
+3. If we want to create our own sign dataset, we must execute the script "create_dataset.py". Otherwise we can skip to step number 6 "Run Streamlit".
 
 ```bash
   python create_dataset.py
@@ -19,16 +25,16 @@ The program will ask us which sign we want to add to the dataset, then it will o
 
 This program also creates a folder called "dataset" and inside it, it will save the 100 photos in folders with the name of the signal that we have written.
 
-3. We must extract the landmark of all the images of each sign, and save them in a .csv, for this we will execute the program "create_csv.py".
+4. We must extract the landmark of all the images of each sign, and save them in a .csv, for this we will execute the program "create_csv.py".
 
 ```bash
   python create_csv.py
 ```
 Now we have our .csv created as "dataset.csv". 
 
-4. Let's train! For this, we are going to execute all the lines of code of the "train_SVC.ipynb". Once the training is finished we will have the model saved in the file as "SVC_model.pkl".
+5. Let's train! For this, we are going to execute all the lines of code of the "train_SVC.ipynb". Once the training is finished we will have the model saved in the file as "SVC_model.pkl".
 
-5. Run Streamlit. 
+6. Run Streamlit. 
 To do this, inside the streamlit_webRTC folder, execute the following command:
 
 ```bash
