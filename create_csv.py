@@ -1,5 +1,5 @@
 import os
-from img_process import process_img
+from utils.img_process import process_img
 def make_csv(): # code taken from the internet
     
     mypath = 'dataset'
