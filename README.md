@@ -2,7 +2,7 @@
 
 Signals is a sign language alphabet recognition project using Python, Mediapipe, OpenCV, Machine Learning (Sklearn) and Streamlit. In essence it is a program that recognizes which alphabet sign we are doing in real time or through images. 
 
-![gif](https://i.makeagif.com/media/5-27-2022/kmEkHv.gif)
+![gif](https://i.makeagif.com/media/5-27-2022/pYuXaO.gif)
 ![gif](https://i.makeagif.com/media/5-27-2022/iJ7bUh.gif)
 
 ## How to use?
