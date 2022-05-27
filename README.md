@@ -1,7 +1,9 @@
 # Signals
 
-Signals is a sign language alphabet recognition project using Machine Learning. In essence it is a program that recognizes through the web cam, what letter of the alphabet we are doing. 
+Signals is a sign language alphabet recognition project using Python, Mediapipe, OpenCV, Machine Learning (Sklearn) and Streamlit. In essence it is a program that recognizes which alphabet sign we are doing in real time or through images. 
 
+![gif](https://i.makeagif.com/media/5-27-2022/0rN5ia.gif)
+![gif](https://i.makeagif.com/media/5-27-2022/0rN5ia.gif)
 
 ## How to use?
 
@@ -38,6 +40,6 @@ Now we have our .csv created as "dataset.csv".
 To do this, inside the streamlit_webRTC folder, execute the following command:
 
 ```bash
-  run streamlit main.py
+  streamlit run main.py
 ```
 In the "Streaming" section we can show the signs through the webcam and it will recognize them live, in the "Upload image" section we can upload an image of our hand and it will show through the web what sign we are doing.
