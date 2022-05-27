@@ -27,7 +27,7 @@ Using the mediapipe library, we are going to extract the 21 landmarks of each im
   pip install -r requirements.txt
 ```
 
-3. If we want to create our own sign dataset, we must execute the script "create_dataset.py". Otherwise we can skip to step number 6 "Run Streamlit"
+3. If we want to add signs to dataset (only static sign, for now), we must execute the script "create_dataset.py". Otherwise we can skip to step number 6 "Run Streamlit"
 
 ```bash
   python create_dataset.py
@@ -77,15 +77,16 @@ The "Streaming" section does not work well yet, as I have not configured a TURN 
 - [ ] Sign recognition with movement to be able to recognize words and phrases
 - [ ] Implement a system that when typing text, the application will return its translation into sign language
 
+## Acknowledgements
+
+ - [CoreCodeSchool](https://github.com/core-school)
+ - [Marc Pomar](https://github.com/boyander)
+ - [Alvaro Lucas](https://github.com/Alvaro-Lucas)
+
 ## Autor ✒️
 
 This project was developed by:
 
 * **Daniel Alvarado** - [danieldls-exe](https://github.com/DanielDls-exe)
-
-## License 📄
-
-This project is under the MIT License
-
 ---
 ⌨️ with ❤️ by [danieldls-exe](https://github.com/DanielDls-exe) 😊
