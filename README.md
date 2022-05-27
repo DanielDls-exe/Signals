@@ -73,7 +73,7 @@ The "Streaming" section does not work well yet, as I have not configured a TURN 
 ## Roadmap 🚀
 
 - [x] Recognition of the static sign of the alphabet that the user makes to the web cam
-- [x]Recognition of the alphabet sign by image uploading
+- [x] Recognition of the alphabet sign by image uploading
 - [ ] Sign recognition with movement to be able to recognize words and phrases
 - [ ] Implement a system that when typing text, the application will return its translation into sign language
 
