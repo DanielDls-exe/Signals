@@ -3,8 +3,7 @@ import cv2 as cv
 from pathlib import Path
 
 def create_data():
-    print('Which sign would you like to add?')
-    sign = input()
+    sign = input('Which sign would you like to add? -> ')
     Path('dataset/'+sign).mkdir(parents=True, exist_ok=True)
     cap = cv.VideoCapture(0)
     i = 0    
