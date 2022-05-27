@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
 import cv2 
 import numpy as np 
-from utils.img_process_predict import img_live
+from img_process_predict import img_live
 import pickle
 import av
 import threading
